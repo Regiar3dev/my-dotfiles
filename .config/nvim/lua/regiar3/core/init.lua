@@ -25,6 +25,8 @@ opt.scrolloff = 8
 opt.sidescrolloff = 8
 opt.clipboard = "unnamedplus"
 
+opt.shell = "/usr/bin/fish"
+
 opt.updatetime = 50
 
 opt.splitright = true

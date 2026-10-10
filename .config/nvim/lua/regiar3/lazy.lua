@@ -14,7 +14,8 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
 	spec = {
 		{ import = "regiar3.plugins" },
-		{ import = "regiar3.plugins.lsp" }
+		{ import = "regiar3.plugins.lsp" },
+    { import = "regiar3.plugins.copilot" }
 	},
 	checker = {
 		enabled = true,
